@@ -29,5 +29,5 @@ def user_login(request):
 def dashboard(request):
     return render(request,
      'accounts/dashboard.html',
-    {'secion':'dashboard'})
+    {'section':'dashboard'})
 # Create your views here.
